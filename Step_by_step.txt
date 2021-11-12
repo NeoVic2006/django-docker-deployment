@@ -1,0 +1,4 @@
+1) Create project in github
+2) Clone project to local Mashine
+3) Create requirements file in root folder
+4) Setup Docker
