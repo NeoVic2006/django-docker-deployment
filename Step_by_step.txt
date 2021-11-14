@@ -2,3 +2,18 @@
 2) Clone project to local Mashine
 3) Create requirements file in root folder
 4) Setup Docker
+    a) Create docker file in root folder "Dockerfile"
+    b) Go on the hub.docker.com and check Python Images tags. 
+       We will use 3.9.5-alpine3.13 version 
+       (alpine is very lite base image which is recomended for Docker)
+    c) Config Dockerfile 
+    d) Create a Docker Compose file for running development server
+       (docker-compose.yml)
+    e) Create a .dockerignore file
+5) Use command "docker-compose build" to create new Docker Image for development project
+
+6) Create new django project with this command: "docker-compose run --rm app sh -c "django-admin startproject app ." "
+
+
+7 ) Configure Settings.py in django project
+
